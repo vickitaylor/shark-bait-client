@@ -1,0 +1,85 @@
+.h1, h1 {
+    font-size: 2.5rem;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0.5rem 0;
+    margin: 0;
+    border: 0;
+}
+
+.needspace {
+    padding: 9rem 0 0 0;
+}
+
+.form--login {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form--login > fieldset > input[type="email"] {
+    width: 30em;
+}
+
+.label--login {
+    width: 8rem;
+    display: inline-block;
+    font-size: large;
+    font-weight: 600;
+}
+
+.label-login {
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    display: block;
+    width: 90%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.container--login {
+    text-align: center;
+}
+
+.form--login {
+    background-position-x: right;
+    z-index: 1;
+    min-height: 40rem;
+    min-width: 40rem;
+    background-color: hsla(0,0%,100%,0.40);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    text-align: center; 
+    border-radius: 180rem;
+}
+
+.button--close {
+    position: relative;
+    bottom: -2rem;
+}
+
+.logon {
+    margin: auto;
+    text-align: center; 
+}
+
+.cancel-btn {
+    margin-left: 2em;
+}
+
